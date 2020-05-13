@@ -1,0 +1,187 @@
+object Form1: TForm1
+  Left = 593
+  Height = 299
+  Top = 142
+  Width = 390
+  HorzScrollBar.Range = 80
+  VertScrollBar.Page = 24
+  VertScrollBar.Range = 24
+  BorderStyle = bsDialog
+  Caption = 'Calculadora'
+  ClientHeight = 299
+  ClientWidth = 390
+  Color = clInactiveBorder
+  LCLVersion = '2.0.8.0'
+  object Panel1: TPanel
+    Left = 24
+    Height = 50
+    Top = 16
+    Width = 272
+    Alignment = taRightJustify
+    BorderStyle = bsSingle
+    Color = clWhite
+    ParentColor = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 25
+    Top = 72
+    Width = 40
+    Caption = '1'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 72
+    Height = 25
+    Top = 72
+    Width = 40
+    Caption = '2'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 120
+    Height = 25
+    Top = 72
+    Width = 40
+    Caption = '3'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 24
+    Height = 25
+    Top = 104
+    Width = 40
+    Caption = '4'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 72
+    Height = 25
+    Top = 104
+    Width = 40
+    Caption = '5'
+    OnClick = Button5Click
+    TabOrder = 5
+  end
+  object Button6: TButton
+    Left = 120
+    Height = 25
+    Top = 104
+    Width = 40
+    Caption = '6'
+    OnClick = Button6Click
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 24
+    Height = 25
+    Top = 136
+    Width = 40
+    Caption = '7'
+    OnClick = Button7Click
+    TabOrder = 7
+  end
+  object Button8: TButton
+    Left = 72
+    Height = 25
+    Top = 136
+    Width = 40
+    Caption = '8'
+    OnClick = Button8Click
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Left = 120
+    Height = 25
+    Top = 136
+    Width = 40
+    Caption = '9'
+    OnClick = Button9Click
+    TabOrder = 9
+  end
+  object Button10: TButton
+    Left = 24
+    Height = 25
+    Top = 168
+    Width = 40
+    Caption = '0'
+    OnClick = Button10Click
+    TabOrder = 10
+  end
+  object Button11: TButton
+    Left = 176
+    Height = 25
+    Top = 72
+    Width = 40
+    Caption = '+'
+    OnClick = Button11Click
+    TabOrder = 11
+  end
+  object Button12: TButton
+    Left = 176
+    Height = 25
+    Top = 104
+    Width = 40
+    Caption = '/'
+    OnClick = Button12Click
+    TabOrder = 12
+  end
+  object Button13: TButton
+    Left = 176
+    Height = 25
+    Top = 136
+    Width = 40
+    Caption = '%'
+    TabOrder = 13
+  end
+  object Button14: TButton
+    Left = 224
+    Height = 25
+    Top = 72
+    Width = 40
+    Caption = '-'
+    OnClick = Button14Click
+    TabOrder = 14
+  end
+  object Button15: TButton
+    Left = 224
+    Height = 25
+    Top = 104
+    Width = 40
+    Caption = '*'
+    OnClick = Button15Click
+    TabOrder = 15
+  end
+  object Button16: TButton
+    Left = 224
+    Height = 25
+    Top = 136
+    Width = 40
+    Caption = '.'
+    OnClick = Button16Click
+    TabOrder = 16
+  end
+  object Button17: TButton
+    Left = 72
+    Height = 25
+    Top = 168
+    Width = 83
+    Caption = 'C'
+    OnClick = Button17Click
+    TabOrder = 17
+  end
+  object Button18: TButton
+    Left = 184
+    Height = 25
+    Top = 168
+    Width = 75
+    Caption = '='
+    OnClick = Button18Click
+    TabOrder = 18
+  end
+end
